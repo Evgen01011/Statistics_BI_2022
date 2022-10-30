@@ -18,12 +18,12 @@ def check_intervals_intersect(first_ci, second_ci):
 # Function for check expression with check intervals
 def check_dge_with_ci(first_table, second_table):
     ci_test_results = []
-    for col in first_table.columns[0:-1]:                                                # check every genes except last col - Cell Type
-        first_ci_gene = st.t.interval(0.95,                                              # calculate first ci
+    for col in first_table.columns[0:-1]:                                                 # check every genes except last col - Cell Type
+        first_ci_gene = st.t.interval(0.95,                                               # calculate first ci
                                       len(first_table[col]) - 1,
                                       loc=np.mean(first_table[col]),
                                       scale=st.sem(first_table[col]))
-        second_ci_gene = st.t.interval(0.95,                                            # calculate second ci
+        second_ci_gene = st.t.interval(0.95,                                              # calculate second ci
                                        len(second_table[col]) - 1,
                                        loc=np.mean(second_table[col]),
                                        scale=st.sem(second_table[col]))
