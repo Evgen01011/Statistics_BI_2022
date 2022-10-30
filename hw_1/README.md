@@ -1,6 +1,7 @@
 #### Homework 1.
 
 **Features**
+
 Using table of differential gene expressions of two cell type, program evaluate:
 1. The difference between means of TMCC1 gene expression levels based on the central limit theorem and check intervals of means - *Task 1*
 1. The difference between expression levels of gene pair based on check intervals of mean - *Task 2*
