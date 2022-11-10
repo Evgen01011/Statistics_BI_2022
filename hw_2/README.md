@@ -9,6 +9,7 @@ The function `result_p_value_adj` requests arguments:
 5. multiplete: method used for testing and adjustment of pvalues (by default = None - no adjustment)
 
 Can be either the full name or initial letters. Available methods are:
+
 -bonferroni : one-step correction
 -sidak : one-step correction
 -holm-sidak : step down method using Sidak adjustments
