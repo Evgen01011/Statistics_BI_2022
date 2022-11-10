@@ -10,16 +10,16 @@ The function `result_p_value_adj` requests arguments:
 
 Can be either the full name or initial letters. Available methods are:
 
--bonferroni : one-step correction
--sidak : one-step correction
--holm-sidak : step down method using Sidak adjustments
--holm : step-down method using Bonferroni adjustments
--simes-hochberg : step-up method (independent)
--hommel : closed method based on Simes tests (non-negative)
--fdr_bh : Benjamini/Hochberg (non-negative)
--fdr_by : Benjamini/Yekutieli (negative)
--fdr_tsbh : two stage fdr correction (non-negative)
--fdr_tsbky : two stage fdr correction (non-negative)=None
+bonferroni : one-step correction
+sidak : one-step correction
+holm-sidak : step down method using Sidak adjustments
+holm : step-down method using Bonferroni adjustments
+simes-hochberg : step-up method (independent)
+hommel : closed method based on Simes tests (non-negative)
+fdr_bh : Benjamini/Hochberg (non-negative)
+fdr_by : Benjamini/Yekutieli (negative)
+fdr_tsbh : two stage fdr correction (non-negative)
+fdr_tsbky : two stage fdr correction (non-negative)=None
 
 The result presents this columns:
 1. Studied gene
