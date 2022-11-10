@@ -7,6 +7,7 @@ The function `result_p_value_adj` requests arguments:
 3. ci_test: method used for determinating the conduct of the test with confidence intervals (by default=True)
 4. alpha: method used as threshold of tests (by default = 0.05)
 5. multiplete: method used for testing and adjustment of pvalues (by default = None - no adjustment)
+
 Can be either the full name or initial letters. Available methods are:
 -bonferroni : one-step correction
 -sidak : one-step correction
