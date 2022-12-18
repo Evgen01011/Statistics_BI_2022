@@ -1,4 +1,4 @@
-## Olimpic games
+## Olympic games
 
 The project presents an analysis of the data about Olympic Games since 1896 until 2016 years.
 
